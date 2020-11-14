@@ -2355,6 +2355,7 @@ input, select, textarea {
 		position: relative;
 	}
 
+
 		.image img {
 			display: block;
 		}
@@ -2522,6 +2523,16 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
+        .image img {
+        transition: filter .5s ease-in-out;
+        -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+        filter: grayscale(0%); /* FF 35+ */
+        }
+
+        .imageimg:hover {
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+        filter: grayscale(100%); /* FF 35+ */
+        }
 
 /* List */
 
