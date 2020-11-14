@@ -2529,7 +2529,7 @@ input, select, textarea {
         filter: grayscale(0%); /* FF 35+ */
         }
 
-        .imageimg:hover {
+        .image img:hover {
         -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
         filter: grayscale(100%); /* FF 35+ */
         }
